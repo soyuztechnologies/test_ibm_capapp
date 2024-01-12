@@ -20,10 +20,6 @@ annotate service.POs with @(
         },
         {
             $Type : 'UI.DataField',
-            Value : PARTNER_GUID.ADDRESS_GUID.COUNTRY,
-        },
-        {
-            $Type : 'UI.DataField',
             Value : GROSS_AMOUNT,
         },
         {
@@ -85,7 +81,7 @@ annotate service.POs with @(
         },
         {
             $Type : 'UI.DataField',
-            Value : NODE_KEY,
+            Value : ID,
         },
     ],
     UI.FieldGroup #Spiderman:{
@@ -170,7 +166,7 @@ annotate service.PurchaseOrderItems with @(
     UI.Identification: [
         {
             $Type : 'UI.DataField',
-            Value : NODE_KEY,
+            Value : ID,
         },
         {
             $Type : 'UI.DataField',
